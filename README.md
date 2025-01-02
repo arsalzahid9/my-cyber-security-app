@@ -22,7 +22,7 @@ Builds the application for production. The build artifacts will be stored in the
 
 ## Challenges Faced
 
-##Swiper Integration:
+## Swiper Integration:
     - Encountered issues with integrating the Swiper library, particularly during the build process. 
     - Locally, the Swiper functionality worked correctly, but upon building for production or deploying to Vercel, errors related to missing Swiper modules occurred. 
 
