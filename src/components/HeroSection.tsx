@@ -3,9 +3,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCoverflow, Pagination } from 'swiper/modules';
 import { SecurityCard } from './Ui/SecurrityCard';
 import { securityCards } from '../data/SecurityCard';
-import "swiper/css";
-import "swiper/css/effect-coverflow";
-import "swiper/css/pagination";
+// import "swiper/css";
+// import "swiper/css/effect-coverflow";
+// import "swiper/css/pagination";
 
 
 export const HeroSection = () => {
