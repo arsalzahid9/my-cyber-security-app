@@ -1,54 +1,18 @@
-<<<<<<< HEAD
-# React + TypeScript + Vite
+# My Vite Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple project bootstrapped with [Vite]([https://vitejs.dev/](https://my-cyber-security-app-git-main-arsal-zahids-projects.vercel.app/)).
 
-Currently, two official plugins are available:
+## Available Scripts
+Before run the project locally use command
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### `npm install`
 
-## Expanding the ESLint configuration
+In the project directory, you can run:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### `npm run dev`
 
-- Configure the top-level `parserOptions` property like this:
+Starts the development server. You can access the application at `http://localhost:5173/`.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### `npm run build`
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
-=======
-# my-cyber-security-app
->>>>>>> f40960e24333f73a95b10e8f2ce2763067874913
+Builds the application for production. The build artifacts will be stored in the `dist` directory.
