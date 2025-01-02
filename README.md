@@ -1,38 +1,29 @@
+<<<<<<< HEAD
 # React + TypeScript + Vite
+=======
+# My Vite Project
+>>>>>>> ac23a9c72c7f010e27ff0c6d25b9f6b0c0db6512
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple project bootstrapped with [Vite]([https://vitejs.dev/](https://my-cyber-security-app-git-main-arsal-zahids-projects.vercel.app/)).
 
-Currently, two official plugins are available:
+## Available Scripts
+Before run the project locally use command
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### `npm install`
 
-## Expanding the ESLint configuration
+In the project directory, you can run:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### `npm run dev`
 
-- Configure the top-level `parserOptions` property like this:
+Starts the development server. You can access the application at `http://localhost:5173/`.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### `npm run build`
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Builds the application for production. The build artifacts will be stored in the `dist` directory.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Challenges Faced
 
+<<<<<<< HEAD
 export default tseslint.config({
   // Set the react version
   settings: { react: { version: '18.3' } },
@@ -48,3 +39,9 @@ export default tseslint.config({
   },
 })
 ```
+=======
+* **Swiper Integration:** 
+    - Encountered issues with integrating the Swiper library, particularly during the build process. 
+    - Locally, the Swiper functionality worked correctly, but upon building for production or deploying to Vercel, errors related to missing Swiper modules occurred. 
+    - Resolved the issue by carefully reviewing import paths, ensuring correct Swiper CSS module imports, and verifying the Swiper library version compatibility.
+>>>>>>> ac23a9c72c7f010e27ff0c6d25b9f6b0c0db6512
