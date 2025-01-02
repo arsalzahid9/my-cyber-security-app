@@ -5,8 +5,8 @@ import { motion } from 'framer-motion'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation } from 'swiper/modules'
 import { MessageSquare } from 'lucide-react'
-import 'swiper/css'
-import 'swiper/css/navigation'
+// import 'swiper/css'
+// import 'swiper/css/navigation'
 
 const pricingData = [
   {
